@@ -1,0 +1,14 @@
+openapi: 3.0.0
+info:
+  title: data types related to time
+  version: v1beta
+servers: []
+paths: {}
+components:
+  schemas:
+    Year:
+      description: A year in the Gregorian Calendar
+      type: integer
+      minimum: 1
+      maximum: 9999
+      example: 2020
