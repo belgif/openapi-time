@@ -1,7 +1,7 @@
 swagger: "2.0"
 info:
   title: data types related to time
-  version: v1beta
+  version: ${project.version}-beta
 paths: {}
 definitions:
   Year:
