@@ -63,3 +63,9 @@ definitions:
     type: string
     pattern: '^[0-9]{4}-[0-1][0-9]$'
     example: '2020-01'
+  Year:
+    description: A year in the Gregorian Calendar
+    type: integer
+    minimum: 1
+    maximum: 9999
+    example: 2020
